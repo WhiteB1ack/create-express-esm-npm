@@ -1,0 +1,29 @@
+{
+  "name": "create-express-esm-baimo",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "create-express-esm": "bin/cli.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "files": [
+    "bin",
+    "template"
+  ],
+  "description": "A simple Express ESM project generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "esm",
+    "generator",
+    "scaffold",
+    "cli"
+  ],
+  "author": "Baishimo",
+  "license": "MIT"
+}
