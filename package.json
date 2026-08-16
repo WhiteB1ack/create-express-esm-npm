@@ -2,20 +2,25 @@
   "name": "create-express-esm-baimo",
   "version": "1.0.1",
   "type": "module",
+  "description": "A simple Express ESM project generator",
+  "main": "bin/cli.js",
   "bin": {
     "create-express-esm": "bin/cli.js"
-  },
-  "dependencies": {
-    "express": "^5.1.0"
   },
   "files": [
     "bin",
     "template"
   ],
-  "description": "A simple Express ESM project generator",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WhiteB1ack/create-express-esm-npm.git"
+  },
+  "homepage": "https://github.com/WhiteB1ack/create-express-esm-npm#readme",
+  "bugs": {
+    "url": "https://github.com/WhiteB1ack/create-express-esm-npm/issues"
   },
   "keywords": [
     "express",
@@ -25,5 +30,8 @@
     "cli"
   ],
   "author": "Baishimo",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
