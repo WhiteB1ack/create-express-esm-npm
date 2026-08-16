@@ -9,5 +9,13 @@
   },
   "dependencies": {
     "express": "^5.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WhiteB1ack/create-express-esm-npm.git"
+  },
+  "homepage": "https://github.com/WhiteB1ack/create-express-esm-npm#readme",
+  "bugs": {
+    "url": "https://github.com/WhiteB1ack/create-express-esm-npm/issues"
   }
 }
